@@ -1,0 +1,7 @@
+<div id="stock-lookup-results" class="well results-block">
+  <% if stock.present? %>
+    <strong>Symbol:</strong><%= stock.ticker %>
+    <strong>Name:</strong><%= stock.name %>
+    <strong>Price:</strong><%= stock.price %>
+    <% end %>
+</div>
